@@ -100,4 +100,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if !(indexPath.section == 1 && (indexPath.row == 0 || indexPath.row == 5)) {
+            let nextViewController = DetailViewController()
+            tableView.deselectRow(at: indexPath, animated: true)
+            print("Нажата ячейка \"\(settings[indexPath.section][indexPath.row].settingsLabel)\"")
+            nextViewController.setting = settings[indexPath.section][indexPath.row]
+            navigationController?.pushViewController(nextViewController, animated: true)
+        } else {
+            tableView.deselectRow(at: indexPath, animated: true)
+            print("Нажата ячейка \"\(settings[indexPath.section][indexPath.row].settingsLabel)\"")
+        }
+    }
+    
 }

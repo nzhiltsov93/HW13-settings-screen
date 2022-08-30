@@ -34,7 +34,7 @@ extension Settings {
         
         [Settings(settingsImage: UIImage(named: "settings")!, settingsLabel: "Основные", type: .notification, detail: nil),
          Settings(settingsImage: UIImage(named: "switch")!, settingsLabel: "Пункт управления", type: .standard, detail: nil),
-         Settings(settingsImage: UIImage(named: "aA")!, settingsLabel: "Экран и яркость", type: .standard, detail: nil),
+         Settings(settingsImage: UIImage(named: "aa")!, settingsLabel: "Экран и яркость", type: .standard, detail: nil),
          Settings(settingsImage: UIImage(named: "home")!, settingsLabel: "Экран домой", type: .standard, detail: nil),
          Settings(settingsImage: UIImage(named: "access")!, settingsLabel: "Универсальный доступ", type: .standard, detail: nil),
          Settings(settingsImage: UIImage(named: "page")!, settingsLabel: "Обои", type: .standard, detail: nil),
