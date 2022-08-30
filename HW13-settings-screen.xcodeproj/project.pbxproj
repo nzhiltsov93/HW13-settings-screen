@@ -18,6 +18,7 @@
 		89BCD4AA28BE7B5E00E1B543 /* SwitchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4A928BE7B5E00E1B543 /* SwitchViewCell.swift */; };
 		89BCD4AC28BE7CC300E1B543 /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4AB28BE7CC300E1B543 /* DetailViewCell.swift */; };
 		89BCD4AE28BE7E0D00E1B543 /* NotificationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4AD28BE7E0D00E1B543 /* NotificationViewCell.swift */; };
+		89BCD4B028BE7F2100E1B543 /* StandardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4AF28BE7F2100E1B543 /* StandardViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		89BCD4A928BE7B5E00E1B543 /* SwitchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewCell.swift; sourceTree = "<group>"; };
 		89BCD4AB28BE7CC300E1B543 /* DetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
 		89BCD4AD28BE7E0D00E1B543 /* NotificationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewCell.swift; sourceTree = "<group>"; };
+		89BCD4AF28BE7F2100E1B543 /* StandardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				89BCD4A928BE7B5E00E1B543 /* SwitchViewCell.swift */,
 				89BCD4AB28BE7CC300E1B543 /* DetailViewCell.swift */,
 				89BCD4AD28BE7E0D00E1B543 /* NotificationViewCell.swift */,
+				89BCD4AF28BE7F2100E1B543 /* StandardViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				89BCD4AA28BE7B5E00E1B543 /* SwitchViewCell.swift in Sources */,
 				89BCD48B28BE71AF00E1B543 /* ViewController.swift in Sources */,
+				89BCD4B028BE7F2100E1B543 /* StandardViewCell.swift in Sources */,
 				89BCD4AC28BE7CC300E1B543 /* DetailViewCell.swift in Sources */,
 				89BCD4A528BE781800E1B543 /* TitleViewCell.swift in Sources */,
 				89BCD48728BE71AF00E1B543 /* AppDelegate.swift in Sources */,
