@@ -19,6 +19,7 @@
 		89BCD4AC28BE7CC300E1B543 /* DetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4AB28BE7CC300E1B543 /* DetailViewCell.swift */; };
 		89BCD4AE28BE7E0D00E1B543 /* NotificationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4AD28BE7E0D00E1B543 /* NotificationViewCell.swift */; };
 		89BCD4B028BE7F2100E1B543 /* StandardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4AF28BE7F2100E1B543 /* StandardViewCell.swift */; };
+		89BCD4B228BE826700E1B543 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCD4B128BE826700E1B543 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		89BCD4AB28BE7CC300E1B543 /* DetailViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewCell.swift; sourceTree = "<group>"; };
 		89BCD4AD28BE7E0D00E1B543 /* NotificationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewCell.swift; sourceTree = "<group>"; };
 		89BCD4AF28BE7F2100E1B543 /* StandardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardViewCell.swift; sourceTree = "<group>"; };
+		89BCD4B128BE826700E1B543 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				89BCD4A028BE730200E1B543 /* TableViewCell */,
 				89BCD48A28BE71AF00E1B543 /* ViewController.swift */,
+				89BCD4B128BE826700E1B543 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				89BCD4A528BE781800E1B543 /* TitleViewCell.swift in Sources */,
 				89BCD48728BE71AF00E1B543 /* AppDelegate.swift in Sources */,
 				89BCD48928BE71AF00E1B543 /* SceneDelegate.swift in Sources */,
+				89BCD4B228BE826700E1B543 /* DetailViewController.swift in Sources */,
 				89BCD4A328BE762600E1B543 /* Model.swift in Sources */,
 				89BCD4AE28BE7E0D00E1B543 /* NotificationViewCell.swift in Sources */,
 			);
@@ -376,7 +380,6 @@
 				INFOPLIST_FILE = "HW13-settings-screen/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,7 +407,6 @@
 				INFOPLIST_FILE = "HW13-settings-screen/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
